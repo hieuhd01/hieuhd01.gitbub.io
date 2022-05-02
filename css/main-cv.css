@@ -1,0 +1,221 @@
+
+html {
+    font-family:'Courier New', Courier, monospace ;
+    background-color: #8bc2ee;
+}
+/* hello */
+.hello {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(175, 245, 196, 0.5);
+    display: none;
+}
+.hello p {
+    font-size: 40px;
+    color: rgb(52 197 241);
+    animation: loading 1s linear infinite;
+}
+/*- body*/
+.box-cv {
+    margin: 0;
+    font-size: 100%;
+    padding: 30px 30px 30px 30px;
+    
+}
+.main-cv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*header*/
+.main-cv .header {
+    margin-top: 24px;
+    height: 230px;
+    width: 100%;
+    max-width: 1220px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right bottom,rgba(250, 252, 251, 0.658),rgba(84, 99, 4, 0.3));
+    
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.header-left .header-left-avatar .avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+    margin: 35px;
+}
+.header-left {
+    display: flex;
+    width: 50%;
+}
+.header-left-info {
+    
+   
+}
+
+.header-left-info .name {
+    font-size: 40px;
+    font-family: cursive;
+}
+.header-left-info .name-info1 {
+    margin-top: -16px;
+    font-size: 18px;
+}
+.header-left-info .name-info2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.header-right {
+    display: flex;
+    margin: 35px;
+    width: 50%;
+}
+.header-right--border {
+    width: 1px;
+    background: rgb(12, 118, 160);
+}
+.header-right .header-info-left {
+    padding: 0 70px;
+}
+.h3-info {
+    color: rgb(165, 49, 194);
+    font-size: 26px;
+    font-weight: 500;
+}
+.h3-info-top {
+    margin-top: 0;
+    padding-bottom: 4px;
+}
+.h3-info p {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0.5;
+}
+/* icon */
+.name-info-link a {
+    text-decoration: none;
+}
+.font-icon {
+    text-decoration: none;
+    color: rgb(38, 115, 231);
+    font-size: 36px;
+    padding-right: 40px;
+}
+.share {
+    padding-top: 14px;
+    width: 50%;
+}
+/* container*/
+.container {
+    height: 635px;
+    width: 100%;
+    background-image: url(./img/background-thien-nhien-mua-dong.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 635px;
+    border-radius: 20px;
+    max-width: 1220px;
+    position: relative;
+}
+.container .container-selection {
+    width: 180px;
+    height: 100%;
+    border: 1px solid #bbb;
+    border-radius: 20px;
+    position: absolute;
+    text-align: center;
+    
+}
+.container-selection .selection {
+    width: 70%;
+    height: 114px;
+    border-radius: 20px;
+    margin: 15%;
+    border: 1px solid #000;
+}
+.container-selection .selection:hover {
+    background-color: rgba(236, 52, 52, 0.3);
+
+}
+.selection p {
+    color: rgb(91, 11, 128);
+    margin-top: -4px;
+    text-shadow: 0 0 1px #000;
+}
+.container-selection .user {
+    margin-top: 50px;
+}
+/* BẢN THÂN */
+#container-main {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    margin-left: 210px;
+    border-radius: 20px;
+    
+    display: none;
+}
+.main-user, .main-target, .main-interests, .main-exp {
+    width: 100%;
+    text-align: center;
+    text-shadow: 0 0 1px #000;
+}
+#container-main p {
+    color: black;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.6;
+    text-shadow: 0 0 1px #000;
+}
+/* Mục tiêu */
+#container-target {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    margin-left: 210px;
+    border-radius: 20px;
+    display: none;
+    background-color: transparent;
+}
+
+/* Sở thích */
+#container-interests {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    margin-left: 210px;
+    border-radius: 20px;
+    display: none;
+    background-color: transparent;
+}
+/* kinh nghiệm làm việc */
+#container-exp {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    margin-left: 210px;
+    border-radius: 20px;
+    display: none;
+    background-color: transparent;
+}
+/* footer */
+#footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+#footer .footer {
+    font-size: 20px;
+    color: rgb(194, 40, 40);
+    margin-top: 40px;
+}
